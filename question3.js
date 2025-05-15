@@ -51,7 +51,7 @@ function maintenanceCosts(maintenanceLogs, queries) {
   return result;
 }
 
-// 🧪 Example Test
+
 const logs3 = [
   [101, "2024-01-01", 500],
   [102, "2024-01-10", 300],
@@ -62,4 +62,4 @@ const queries3 = [
   ["2024-01-01", "2024-01-15"],
 ];
 
-console.log(maintenanceCosts(logs3, queries3)); // [800, 1500]
+console.log(maintenanceCosts(logs3, queries3)); 
